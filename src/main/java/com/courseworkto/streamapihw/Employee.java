@@ -1,3 +1,5 @@
+package com.courseworkto.streamapihw;
+
 import java.util.Objects;
 
 public class Employee {
@@ -48,6 +50,6 @@ public class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" + "firstName='" + firstName + '\'' + ", lastName='" + lastName + '\'' + ", department=" + department + ", salary=" + salary + '}';
+        return "com.courseworkto.streamapihw.Employee{" + "firstName='" + firstName + '\'' + ", lastName='" + lastName + '\'' + ", department=" + department + ", salary=" + salary + '}';
     }
 }
